@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Helvetica Neue Thin';
+  src: local('Helvetica Neue Thin'), url(./fonts/HelveticaNeue-Thin.otf) format('opentype');
+}
+
 .square {
   background-color: white;
   border: none;
@@ -5,7 +10,13 @@
   text-align: center;
   width: 120px;
   height: 120px;
-  font: 60px "Helvetica Neue Thin";
+  font-size: 60px;
+  font-family: "Helvetica Neue Thin";
+}
+
+.square:focus {
+
+  outline: 0;
 }
 
 .board {
