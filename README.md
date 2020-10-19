@@ -2,6 +2,10 @@
 
 This is a simple Tic Tac Toe game with a UI written in React. A human player plays against the computer. The computer uses a minimax algorithm and can never lose.
 
+## Demo
+
+![Alt text](./lost.gif) 
+
 ## Available Scripts
 
 In the project directory, you can run:
